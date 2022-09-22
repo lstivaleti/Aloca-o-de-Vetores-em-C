@@ -1,0 +1,15 @@
+#include <iostream>
+
+int soma (int num1, int num2) {
+	std::cout<<"Digite um numero: \n";
+	std::cin>>num1;
+	std::cout<<"Digite o segundo numero: \n";
+	std::cin>>num2;
+	return num1+num2;
+}
+
+int main (){
+	int v1, v2;
+	std::cout<<"Resultado: "<< soma(v1, v2);
+	return 0;
+}
